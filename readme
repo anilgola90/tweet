@@ -1,1 +1,12 @@
-this is great
+We are building Reactive Twitter
+
+create table todos.car
+(
+    id       bigint unsigned auto_increment
+        primary key,
+    brand    varchar(255) null,
+    kilowatt int          null,
+    constraint id
+        unique (id)
+);
+
